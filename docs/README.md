@@ -1,11 +1,10 @@
 ---
 home: true
-heroImage: "/avatar.jpg"
-heroImageStyle:
-  {
-    maxHeight: "288px",
-    display: block,
-    borderRadius: "19% 81% 23% 77% / 44% 57% 43% 56%",
-    boxShadow: "0 15px 18px rgba(0,0,0,0.2)",
-  } 
+heroImage: "/author.jpg"
+heroImageStyle: {
+  maxHeight: "300px",
+  display: block,
+  borderRadius: "19% 81% 23% 77% / 44% 57% 43% 56%",
+  boxShadow: "0 15px 18px rgba(0,0,0,0.2)",
+} 
 ---

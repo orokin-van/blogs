@@ -1,6 +1,6 @@
 module.exports = {
   title: 'orokin-van',
-  description: 'Van',
+  description: '猫咪',
   theme: 'reco',
   base: '/blogs/',
   locales: {
@@ -11,8 +11,8 @@ module.exports = {
   themeConfig: {
     type: "blog",
     author: "Van",
-    logo: "/avatar.jpg",
-    authorAvatar: "/avatar.jpg",
+    logo: "/author.jpg",
+    authorAvatar: "/author.jpg",
     nav: [{
         text: "首页",
         link: "/"
