@@ -3,6 +3,12 @@ module.exports = {
   description: '猫咪',
   theme: 'reco',
   base: '/blogs/',
+  mode: false,
+  head: [
+    ['meta', { name: 'keywords', content: '个人网站' }],
+    ['meta', { name: 'author', content: 'orokin-van' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   locales: {
     "/": {
       lang: "zh-CN",
@@ -11,6 +17,7 @@ module.exports = {
   themeConfig: {
     type: "blog",
     author: "Van",
+    modePicker: false,
     logo: "/author.jpg",
     authorAvatar: "/author.jpg",
     nav: [{
